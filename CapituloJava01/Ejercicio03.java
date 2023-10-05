@@ -1,5 +1,9 @@
 package CapituloJava01;
-
+/**
+ * Escribe un programa que muestre por pantalla 10 palabras en inglés junto a su
+ * correspondiente traducción al castellano. Las palabras deben estar distribuidas
+ * en dos columnas y alineadas a la izquierda.
+ */
 public class Ejercicio03 {
   public static void main(String[] args){
     System.out.printf("%-15s %s\n","computer","ordenador");

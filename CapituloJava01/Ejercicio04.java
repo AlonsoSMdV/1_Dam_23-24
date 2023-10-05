@@ -1,5 +1,7 @@
 package CapituloJava01;
-
+/**
+ * Escribe un programa que muestre tu horario de clase.
+ */
 public class Ejercicio04 {
   public static void main(String[] args) {
     System.out.println("┌────────┬────────┬────────┬────────┬────────┐");
