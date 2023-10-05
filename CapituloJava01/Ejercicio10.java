@@ -1,5 +1,7 @@
 package CapituloJava01;
-
+/**
+ * Mejora el ejercicio anterior añadiéndole colores.
+ */
 public class Ejercicio10 {
   public static void main(String[] args) {
     System.out.println("                       \033[31m██");
