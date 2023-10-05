@@ -1,5 +1,7 @@
 package CapituloJava01;
-
+/**
+ * Modifica el programa anterior añadiendo colores. Puedes mostrar cada asignatura de un color diferente.
+ */
 public class Ejercicio05 {
    // Regular Colors
    public static final String BLACK = "\033[0;30m";   // BLACK
