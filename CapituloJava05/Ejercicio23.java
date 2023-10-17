@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Ejercicio23 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int n =0;
+    int n = 0;
     int contador = 0;
     int sumaNumeros = 0;
     while (sumaNumeros < 10000) {
