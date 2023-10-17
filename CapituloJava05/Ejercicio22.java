@@ -17,6 +17,5 @@ public class Ejercicio22 {
         System.out.print(n + " ");
       }
     }
-    System.out.println();
   }
 }
