@@ -10,13 +10,13 @@ public class Ejercicio20 {
     int altura = sc.nextInt();
     System.out.print("Ahora con que caracter quiere pintar la piramide: ");
     String caracter = sc.next();
-    for (int i = 0; i < altura; i++) { 
-      for (int j = i; j < altura-1; j++) {
+    for (int i = 1; i <= altura; i++) { 
+      for (int j = i; j <= altura-1; j++) {
         System.out.print("  ");
       }
       
-      for (int j2 = 0; j2 < i*2-1; j2++) {
-        if( i == altura-1|| j2 == 0 || j2 == i*2-2){
+      for (int j2 = 1; j2 <= i*2-1; j2++) {
+        if( i == altura|| j2 == 1 || j2 == i*2-1){
           System.out.print(caracter+" ");
         }else{
           System.out.print("  ");
