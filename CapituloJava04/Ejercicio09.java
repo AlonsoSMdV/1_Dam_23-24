@@ -18,12 +18,20 @@ public class Ejercicio09 {
     double c = sc.nextInt();
 
     if(a == 0){
-      System.out.println("Esa ecuación no tiene solución real.");
+      Double x = -c/b;
+      System.out.printf("x = %.2f\n",x);
     }else{
-      double ecuacion1 = (-b+Math.sqrt(Math.pow(b, 2)-(4*a*c)))/(2*a);
-      double ecuacion2 = (-b-Math.sqrt(Math.pow(b, 2)-(4*a*c)))/(2*a);;
-      System.out.printf("x = %.2f\n",ecuacion1);
-      System.out.printf("x = %.2f",ecuacion2);
+
+      double raiz = Math.pow(b, 2)-(4*a*c);
+      if (raiz<0) {
+        System.out.println("No tiene solucion real");
+      } else {
+        double ecuacion1 = (-b+Math.sqrt(raiz))/(2*a);
+        double ecuacion2 = (-b-Math.sqrt(raiz))/(2*a);;
+        System.out.printf("x = %.2f\n",ecuacion1);
+        System.out.printf("x = %.2f",ecuacion2);
+      }
+      
     }
     sc.close();
   }
