@@ -14,7 +14,7 @@ public class Ejercicio27 {
       int suma = 0;
       System.out.print("Los multiplos entre 3 y "+n+" son: ");
       for (multiplo = 1; multiplo <= n; multiplo++) {
-        if (multiplo%3==0) {
+        if (multiplo%3 == 0) {
           System.out.print(multiplo+" ");
           contador++;
           suma+=multiplo;
