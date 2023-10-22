@@ -29,7 +29,7 @@ public class Ejercicio32 {
     }
     System.out.print("Digitos pares: ");
     for (int i = 0; i < contador; i++) {
-      if((nVolteado % 10)%2==0 ){
+      if((nVolteado % 10)%2 == 0){
         digitosPares = (int)nVolteado%10;
         System.out.print(digitosPares+" ");
         sumaPares += digitosPares;
