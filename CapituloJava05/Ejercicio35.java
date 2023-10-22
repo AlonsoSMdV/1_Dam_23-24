@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Ejercicio35 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Por favor, introduzca la altura de la priamide: ");
+    System.out.print("Por favor, introduzca la altura de la x: ");
     int alt = sc.nextInt();
     for (int i = 0; i < alt; i++) {
       for (int j = 0; j < alt; j++) {
