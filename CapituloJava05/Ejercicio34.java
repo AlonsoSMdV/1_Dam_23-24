@@ -41,9 +41,9 @@ public class Ejercicio34 {
     long par = 0;
     long impar = 0;
     for (int i = 0; i < contador; i++) {
-      if ((volt1%10)%2==0) {
+      if ((volt1%10)%2 == 0) {
         par = (volt1%10) + (par*10);
-        volt1 /=10;
+        volt1 /= 10;
       }else{
         impar = (volt1%10) + (impar*10);
         volt1 /=10;
