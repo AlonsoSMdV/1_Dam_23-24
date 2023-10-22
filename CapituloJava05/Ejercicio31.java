@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Ejercicio31 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Introduzca la altura de la L: ");
+    System.out.print("Introduce la altura de la L: ");
     int alt = sc.nextInt();
     for (int i = 0; i < alt-1; i++) {
       System.out.println("*");
