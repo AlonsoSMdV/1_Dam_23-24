@@ -20,7 +20,7 @@ public class Ejercicio36 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Introduce un numero: ");
-    long n = sc.nextInt();
+    long n = sc.nextLong();
     long volt = volteado(n);
     if(n == volt){
       System.out.println(n+" es capicuo");
