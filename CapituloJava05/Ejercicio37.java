@@ -16,7 +16,7 @@ public class Ejercicio37 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Por favor, introduzca un número entero positivo: ");
-    long n = sc.nextInt();
+    long n = sc.nextLong();
     String palotes = "";
     long volt = volteado(n);
     long nPalotes = 0;
