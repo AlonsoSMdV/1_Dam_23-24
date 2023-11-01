@@ -73,6 +73,7 @@ public class Ejercicio03 {
       default:
         break;
     }
+    
     System.out.println(carta);
   }
 }
