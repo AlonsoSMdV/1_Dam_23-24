@@ -89,6 +89,7 @@ public class Ejercicio02 {
       default:
         break;
     }
+    
     System.out.println(carta);
   }
 }
