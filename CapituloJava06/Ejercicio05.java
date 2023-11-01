@@ -9,7 +9,7 @@ public class Ejercicio05 {
     int maximo = 100;
     int minimo = 199;
     double suma = 0;
-    for (int i = 0; i < 50; i++) {
+    for (int i = 1; i <= 50; i++) {
       int n = (int)(Math.random()*99+100);
       if(n > maximo){
         maximo = n;
