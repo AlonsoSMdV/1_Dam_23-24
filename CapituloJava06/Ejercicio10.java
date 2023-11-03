@@ -9,9 +9,9 @@ public class Ejercicio10 {
   public static void main(String[] args) {
     int caracter = 0;
     int longitud = 0;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 1; i <= 10; i++) {
       longitud = (int)(Math.random()*40+1);
-      for (int j = 0; j < longitud; j++) {
+      for (int j = 1; j <= longitud; j++) {
         caracter = (int)(Math.random()*6+1);
         switch (caracter) {
           case 1:
