@@ -12,7 +12,7 @@ public class Ejercicio11 {
     int contBienes = 0;
     int contNotables = 0;
     int contSobresalientes = 0;
-    for (int i = 0; i < 20; i++) {
+    for (int i = 1; i <= 20; i++) {
       int nota = (int)(Math.random()*5+1);
       switch (nota) {
         case 1:
