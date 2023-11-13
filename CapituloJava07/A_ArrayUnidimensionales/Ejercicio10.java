@@ -19,7 +19,7 @@ public class Ejercicio10 {
         impares++;
       }
     }
-
+    System.out.println("Array original:");
     System.out.print("Indice ");
     for (int i = 1; i <= 20; i++) {
       System.out.printf("%5d",i);
@@ -29,25 +29,41 @@ public class Ejercicio10 {
     for (int i = 0; i < 20; i++) {
       System.out.printf("%5d", numeros[i]);
     }
-
+System.out.println();
     int[] arrayPares = new int[pares];
     int[] arrayImpares = new int[impares];
+    int j = 0;
+    int k = 0;
     for (int i = 0; i < 20; i++) {
       if (numeros[i] % 2 == 0) {
-        arrayPares[i] = numeros[i];
-        i--;
+        arrayPares[j] = numeros[i];
+        j++;
+      }
+      if(numeros[i] % 2 != 0){
+        arrayImpares[k] = numeros[i];
+        k++;
+      }
+    }
+    int[] resultado = new int[pares+impares];
+    k = 0;
+    for (int i = 0; i < resultado.length; i++) {
+      if (i<pares) {
+        resultado[i] = arrayPares[i];
       }else{
-        arrayImpares[i] = numeros[i];
-        i--;
+        resultado[i] = arrayImpares[k];
+        k++;
       }
     }
 
-    for (int i = 0; i < arrayPares.length; i++) {
-      System.out.print(arrayPares[i]+" ");
+    System.out.println("Array resultado: ");
+    System.out.print("Indice ");
+    for (int i = 1; i <= 20; i++) {
+      System.out.printf("%5d",i);
     }
-
-    for (int i = 0; i < arrayImpares.length; i++) {
-      System.out.print(arrayImpares[i]);
+    System.out.println();
+    System.out.print("Valor  ");
+    for (int i = 0; i < 20; i++) {
+      System.out.printf("%5d", resultado[i]);
     }
   }
 }
