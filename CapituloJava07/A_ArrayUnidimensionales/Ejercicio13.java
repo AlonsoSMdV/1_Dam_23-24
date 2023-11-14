@@ -25,7 +25,7 @@ public class Ejercicio13 {
       System.out.print(nums[i]+" ");
     }
     System.out.println();
-    System.out.print("Que numero desea marcar(1 - minimo; 2 - maximo): ");
+    System.out.print("Que numero desea marcar?(1 - minimo; 2 - maximo): ");
     int maracado = sc.nextInt();
     System.out.println();
     switch (maracado) {
