@@ -39,7 +39,7 @@ public class Ejercicio12 {
     int aux = nums[9];
     int[] resultado = new int[10];
     for (int i = 0; i <= pos1; i++) {
-      if(i < nums.length-1){
+      if(i < nums.length - 1){
         resultado[i+1] = nums[i];
       }
     }
