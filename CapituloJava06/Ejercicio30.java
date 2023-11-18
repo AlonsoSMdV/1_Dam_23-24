@@ -27,7 +27,7 @@ public class Ejercicio30 {
                 caballito = (int)(Math.random()*(alto - 2)*(ancho - 2));
                 caracola = (int)(Math.random()*(alto - 2)*(ancho - 2));
             }while(pez==caballito||pez==caracola||caballito== caracola);
-            for(int i = 0; i < ancho; i++ ){
+            for(int i = 1; i <= ancho; i++ ){
                 System.out.print("* ");
             }
             System.out.println();
@@ -47,7 +47,7 @@ public class Ejercicio30 {
                 }
                 System.out.println("* ");
             }
-            for(int i = 0; i < ancho; i++ ){
+            for(int i = 1; i <= ancho; i++ ){
                 System.out.print("* ");
             }
         }else{
