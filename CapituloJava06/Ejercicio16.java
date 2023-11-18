@@ -18,7 +18,7 @@ public class Ejercicio16 {
     int contHerradura = 0;
     int contCampana = 0;
     int contLimon = 0;
-    for (int i = 0; i < 3; i++) {
+    for (int i = 1; i <= 3; i++) {
       int figura = (int)(Math.random()*5+1);
       switch (figura) {
         case 1:
