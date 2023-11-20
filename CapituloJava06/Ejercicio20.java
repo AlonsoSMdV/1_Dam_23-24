@@ -14,7 +14,7 @@ public class Ejercicio20 {
     int cantidad = (int)(Math.random()*capacidad+1);
     for (int i = capacidad; i >= 1; i--) {
       if (i <= cantidad) {
-        System.out.println("*===*");
+        System.out.println("*\033[34m===\033[37m*");
       } else {
         System.out.println("*   *");
       }
