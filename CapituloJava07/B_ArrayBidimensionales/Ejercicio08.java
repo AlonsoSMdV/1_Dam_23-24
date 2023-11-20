@@ -39,7 +39,7 @@ public class Ejercicio08 {
     System.out.println(" │ a │ b │ c │ d │ e │ f │ g │ h │");
     System.out.println();
     System.out.println("El alfill se puede mover por las siguientes posiciones:");
-    for (int i = 8; i >=1; i--) {
+    for (int i = 8; i >= 1; i--) {
       for (int j = 1; j <= 8; j++) {
         if ((Math.abs(filaAlfil-i) == Math.abs(colAlfil-j)) && ((filaAlfil != i) && (colAlfil != j))) {
           System.out.print((char)(j+96)+""+i+" ");
