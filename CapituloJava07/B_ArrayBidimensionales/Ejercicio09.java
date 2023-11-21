@@ -43,7 +43,7 @@ public class Ejercicio09 {
     int aux2;
     for (capa = 0; capa < 6; capa++) {
       // Se guarda el valor en la esquina superior derecha de la capa actual en 'aux1'.
-      aux1 = num[capa][11-capa];
+      aux1 = num[capa][11 - capa];
       // Se realiza la rotación en sentido horario para la capa actual moviendo los 
       //valores en cada posición hacia la posición siguiente en la matriz 'resultado'.
       for (int j = 11-capa; j > capa; j--) {
