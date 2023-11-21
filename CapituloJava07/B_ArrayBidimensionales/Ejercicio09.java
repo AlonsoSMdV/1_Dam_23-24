@@ -58,19 +58,19 @@ public class Ejercicio09 {
       // Se actualiza la esquina inferior derecha de la capa actual con el valor almacenado en 'aux1'.
       resultado[capa + 1][11 - capa] = aux1;
       // Se guarda el valor en la esquina inferior izquierda de la capa actual en 'aux1'.
-      aux1 = num[11-capa][capa];
+      aux1 = num[11 - capa][capa];
       // Se realiza la rotación en sentido horario para la fila inferior de la capa actual.
       for (int j = capa; j < 11-capa; j++) {
-        resultado[11-capa][j] = num[11-capa][j+1];
+        resultado[11 - capa][j] = num[11 - capa][j + 1];
       }
       // Se actualiza la esquina inferior izquierda de la capa actual con el valor almacenado en 'aux2'.
-      resultado[11-capa][11-capa-1]  = aux2;
+      resultado[11 - capa][11 - capa - 1]  = aux2;
       // Se realiza la rotación en sentido horario para la columna izquierda de la capa actual.
       for (int j = capa; j < 11-capa; j++) {
-        resultado[j][capa] = num[j+1][capa];
+        resultado[j][capa] = num[j + 1][capa];
       }
       // Se actualiza la esquina superior izquierda de la capa actual con el valor almacenado en 'aux1'.
-      resultado[11-capa-1][capa] = aux1;
+      resultado[11 - capa - 1][capa] = aux1;
     }
     System.out.println("Matriz resultado: ");
     System.out.println("┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
