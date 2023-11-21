@@ -50,10 +50,10 @@ public class Ejercicio09 {
         resultado[capa][j] = num[capa][j - 1];
       }
       // Se guarda el valor en la esquina inferior derecha de la capa actual en 'aux2'.
-      aux2 = num[11-capa][11-capa];
+      aux2 = num[11 - capa][11 - capa];
       // Se realiza la rotación en sentido horario para la columna derecha de la capa actual.
       for (int j = 11 - capa; j > capa + 1;j--) {
-        resultado[j][11-capa] = num[j-1][11-capa];
+        resultado[j][11 - capa] = num[j-1][11-capa];
       }
       // Se actualiza la esquina inferior derecha de la capa actual con el valor almacenado en 'aux1'.
       resultado[capa+1][11-capa] = aux1;
