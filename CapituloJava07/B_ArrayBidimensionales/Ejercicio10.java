@@ -43,7 +43,7 @@ public class Ejercicio10 {
           System.out.print(tablero[filas][columnas] + "│");
         }
         System.out.println();
-        if (filas == tablero.length-1) {
+        if (filas == tablero.length - 1) {
           
         }else{
           System.out.println("├─┼─┼─┤");
