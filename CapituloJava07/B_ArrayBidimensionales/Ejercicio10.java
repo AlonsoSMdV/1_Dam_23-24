@@ -40,7 +40,7 @@ public class Ejercicio10 {
       for (filas = 0; filas < tablero.length; filas++) {
         System.out.print("│");
         for (columnas = 0; columnas < tablero.length; columnas++) {
-          System.out.print(tablero[filas][columnas]+"│");
+          System.out.print(tablero[filas][columnas] + "│");
         }
         System.out.println();
         if (filas == tablero.length-1) {
