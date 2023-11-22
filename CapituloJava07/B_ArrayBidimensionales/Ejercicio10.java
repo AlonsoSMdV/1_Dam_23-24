@@ -87,7 +87,7 @@ public class Ejercicio10 {
           filaCPU = (int)(Math.random()*3);
           columnaCPU = (int)(Math.random()*3);
         } while (!tablero[filaCPU][columnaCPU].equals(" "));
-        System.out.println("Fila: "+filaCPU);
+        System.out.println("Fila: " + filaCPU);
         System.out.println("Columna: "+columnaCPU);
         tablero[filaCPU][columnaCPU] = simboloCPU;
         if ((tablero[0][0] == simboloCPU) && (tablero[0][1] == simboloCPU) && (tablero[0][2] == simboloCPU)
