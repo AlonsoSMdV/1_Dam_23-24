@@ -24,14 +24,14 @@ public class Ejercicio13 {
     int minAlt = 210;
     double sumaAltura = 0;
     double media;
-    System.out.printf("%64s\n","MED MIN MAX");
+    System.out.printf("%64s\n", "MED MIN MAX");
     for (int i = 0; i < filas; i++) {
-      sumaAltura=0;
-      maxAlt=140;
-      minAlt=210;
-      System.out.printf("%9s:",pais[i]);
+      sumaAltura = 0;
+      maxAlt = 140;
+      minAlt = 210;
+      System.out.printf("%9s:", pais[i]);
       for (int j = 0; j < columnas; j++) {
-        System.out.printf("%4d",altura[i][j]);
+        System.out.printf("%4d", altura[i][j]);
         if (altura[i][j] > maxAlt) {
           maxAlt = altura[i][j];
         }
@@ -42,7 +42,7 @@ public class Ejercicio13 {
       }
       media = sumaAltura/10;
       System.out.print(" |");
-      System.out.printf("%4.0f%4d%4d",media,minAlt,maxAlt);
+      System.out.printf("%4.0f%4d%4d", media, minAlt, maxAlt);
       System.out.println();
     }
   }
