@@ -21,7 +21,7 @@ public class Ejercicio11 {
 
     for (int i = 0; i < num.length; i++) {
       for (int j = 0; j < num.length; j++) {
-        System.out.printf("%4d",num[i][j]);
+        System.out.printf("%4d", num[i][j]);
         if (i == j) {
           contDiagonal++;
           sumaDiagonal+= num[i][j];
