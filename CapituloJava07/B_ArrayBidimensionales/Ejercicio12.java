@@ -24,7 +24,7 @@ public class Ejercicio12 {
         System.out.printf("%4d", num[i][j]);
         if (i == j) {
           contDiagonal++;
-          sumaDiagonal+= num[i][j];
+          sumaDiagonal += num[i][j];
           if (num[i][j] > maxEnDiagonal) {
             maxEnDiagonal = num[i][j];
           }
