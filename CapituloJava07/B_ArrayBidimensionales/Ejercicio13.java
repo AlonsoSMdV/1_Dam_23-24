@@ -38,7 +38,7 @@ public class Ejercicio13 {
         if (altura[i][j] < minAlt) {
           minAlt = altura[i][j];
         }
-        sumaAltura+= altura[i][j];
+        sumaAltura += altura[i][j];
       }
       media = sumaAltura/10;
       System.out.print(" |");
