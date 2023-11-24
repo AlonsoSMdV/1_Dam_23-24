@@ -30,7 +30,7 @@ public class Ejercicio04 {
       System.out.print("  Fila "+i+" | ");
       for (int j = 0; j < 5; j++) {
         System.out.printf("%6d%5s| ",num[i][j]," ");
-        sumaFila+=num[i][j];
+        sumaFila += num[i][j];
       }
       Thread.sleep(1500);
       System.out.printf("%6d%6s| ",sumaFila," ");
