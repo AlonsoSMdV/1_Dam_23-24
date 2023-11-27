@@ -16,7 +16,7 @@ public class Ejercicio06 {
     for (int i = 0; i < 6; i++) {
       for (int j = 0; j < 10; j++) {
         do{
-          num[i][j] = (int)(Math.random()*1001);
+          num[i][j] = (int)(Math.random() * 1001);
 
           estaEnArray = false;
           for (int k = 0; k < 10*i+j; k++) {
