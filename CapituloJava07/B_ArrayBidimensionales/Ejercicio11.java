@@ -15,7 +15,7 @@ public class Ejercicio11 {
     int contDiagonal = 0;
     for (int i = 0; i < num.length; i++) {
       for (int j = 0; j < num.length; j++) {
-        num[i][j] = (int)(Math.random()*101+200);
+        num[i][j] = (int)(Math.random() * 101+200);
       }
     }
 
