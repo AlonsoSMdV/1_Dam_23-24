@@ -16,7 +16,7 @@ public class Ejercicio05 {
     int minimoY = 0;
     for (int i = 0; i < 6; i++) {
       for (int j = 0; j < 10; j++) {
-        num[i][j] = (int)(Math.random()*1001);
+        num[i][j] = (int)(Math.random() * 1001);
         if(num[i][j] > maximo){
           maximo = num[i][j];
           maximoX = i;
