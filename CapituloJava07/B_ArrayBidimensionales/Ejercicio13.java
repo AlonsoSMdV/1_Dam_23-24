@@ -17,7 +17,7 @@ public class Ejercicio13 {
     int[][] altura = new int[filas][columnas];
     for (int i = 0; i < filas; i++) {
       for (int j = 0; j < columnas; j++) {
-        altura[i][j] = (int)(Math.random()*70+140);
+        altura[i][j] = (int)(Math.random() * 70+140);
       }
     }
     int maxAlt = 140;
