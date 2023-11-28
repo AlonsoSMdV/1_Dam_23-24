@@ -19,11 +19,11 @@ public class Ejercicio01 {
     array[2][5] = 11;
     System.out.print("Array num| ");
     for (int i = 0; i < 6; i++) {
-      System.out.print(" Columna "+i+" | ");
+      System.out.print(" Columna "+ i +" | ");
     }
     System.out.println();
     for (int i = 0; i < array.length; i++) {
-      System.out.print("  Fila "+i+" | ");
+      System.out.print("  Fila "+ i +" | ");
       for (int j = 0; j < 6; j++) {
         System.out.printf("%6d%5s| ",array[i][j]," ");
       }
