@@ -23,15 +23,15 @@ public class Ejercicio02 {
     System.out.print("Array num| ");
     for (int i = 0; i < 6; i++) {
       if(i< 5){
-        System.out.print(" Columna "+i+" | ");
+        System.out.print(" Columna "+ i +" | ");
       }else{
-        System.out.print(" SumaFila "+i+" | ");
+        System.out.print(" SumaFila "+ i +" | ");
       }
     }
     System.out.println();
     for (int i = 0; i < 4; i++) {
       sumaFila = 0;
-      System.out.print("  Fila "+i+" | ");
+      System.out.print("  Fila "+ i +" | ");
       for (int j = 0; j < 5; j++) {
         System.out.printf("%6d%5s| ",num[i][j]," ");
         sumaFila+=num[i][j];
