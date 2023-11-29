@@ -41,11 +41,11 @@ public class Ejercicio06 {
     }
     System.out.print("Array num| ");
     for (int i = 0; i < 10; i++) {
-      System.out.print(" Columna "+i+" | ");
+      System.out.print(" Columna "+ i +" | ");
     }
     System.out.println();
     for (int i = 0; i < 6; i++) {
-      System.out.print("  Fila "+i+" | ");
+      System.out.print("  Fila "+ i +" | ");
       for (int j = 0; j < 10; j++) {
         System.out.printf("%6d%5s| ",num[i][j]," ");
       }
