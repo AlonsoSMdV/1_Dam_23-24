@@ -76,16 +76,16 @@ public class Ejercicio09 {
     System.out.println("┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
     System.out.print("│");
     for (int i = 1; i <= 12; i++) {
-      System.out.printf("%5d│",i);
+      System.out.printf("%5d│", i);
     }
     System.out.println();
     System.out.println("├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
     for (int i = 0; i < num.length; i++) {
       System.out.print("│");
       for (int j = 0; j < num.length; j++) {
-        System.out.printf(" %4d│",resultado[i][j]);
+        System.out.printf(" %4d│", resultado[i][j]);
       }
-      System.out.printf("%3d\n",(i+1));
+      System.out.printf("%3d\n", (i+1));
       if (i == num.length-1) {
         
       }else{
