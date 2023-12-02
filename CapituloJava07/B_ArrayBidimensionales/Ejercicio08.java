@@ -43,7 +43,7 @@ public class Ejercicio08 {
     System.out.println(" │ a │ b │ c │ d │ e │ f │ g │ h │");
     System.out.println("─┼───┼───┼───┼───┼───┼───┼───┼───┼─");
     for (int i = 7; i >= 0; i--) {
-      System.out.print((i+1)+"│");
+      System.out.print((i+1) + "│");
       for (int j = 0; j < 8; j++) {
         System.out.print(tablero[i][j]);
       }
