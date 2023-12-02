@@ -47,7 +47,7 @@ public class Ejercicio06 {
     for (int i = 0; i < 6; i++) {
       System.out.print("  Fila "+ i +" | ");
       for (int j = 0; j < 10; j++) {
-        System.out.printf("%6d%5s| ",num[i][j]," ");
+        System.out.printf("%6d%5s| ", num[i][j], " ");
       }
       System.out.println();
     }
