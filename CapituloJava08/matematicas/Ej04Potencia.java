@@ -10,8 +10,4 @@ public class Ej04Potencia {
     }
     return resultado;
   }
-
-  public static void main(String[] args) {
-    System.out.println(potencia(5, 3));
-  }
 }
