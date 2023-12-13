@@ -4,7 +4,7 @@ package CapituloJava08.matematicas;
  * dentro de un número y devuelve el trozo correspondiente.
  */
 public class Ej13TrozoDeNumero {
-  public static long trozoNumero(long n, int posI, int posF){
+  public static long trozoDeNumero(long n, int posI, int posF){
     long volt = Ej06Voltea.voltea(n);
     int pos = 0;
     while(pos != posI){
