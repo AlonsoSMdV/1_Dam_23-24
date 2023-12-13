@@ -4,7 +4,7 @@ package CapituloJava08.matematicas;
  * dentro de un número entero. Si no se encuentra, devuelve -1.
  */
 public class Ej08PosicionDeDigito {
-  public static int posicionDigito(int dig, long n){
+  public static int posicionDeDigito(int dig, long n){
     long volt = Ej06Voltea.voltea(n);
     int pos = 0;
     int posDig = -1;
