@@ -20,9 +20,9 @@ public class Prueba_Aleatorios02 {
           intervaloMin = (int)(Math.random()*(max-min+1)+min);
           intervaloMax = (int)(Math.random()*(max-min+1)+min);
         } while (intervaloMax < intervaloMin);
-        System.out.println("Estoy pensando un numero entre "+intervaloMin+" y "+intervaloMax);
+        System.out.println("Estoy pensando un numero entre "+ intervaloMin +" y " + intervaloMax);
         int intentos = (int)(Math.log(intervaloMax-intervaloMin)/Math.log(2));
-        System.out.println("Tienes "+intentos+" intentos");
+        System.out.println("Tienes " + intentos + " intentos");
         boolean acertado = true;
         int resultado = (int)(Math.random()*(intervaloMax-intervaloMin+1)+intervaloMin);
         System.out.println(resultado);
