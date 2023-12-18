@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class ExamenArrays2223 {
   public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int ancho=11;
-        Character[][] matriz= new Character[ancho][ancho];
-        Character[][] auxiliar= new Character[ancho][ancho];
-        int cabezalX=5;
-        int cabezalY=5;
-        char cabezal='M';
-        int opcionCabezal=0;
-        char opcion=' ';
-        char auxiliarX=' ';
-        boolean salir=false;
+        int ancho = 11;
+        Character[][] matriz = new Character[ancho][ancho];
+        Character[][] auxiliar = new Character[ancho][ancho];
+        int cabezalX = 5;
+        int cabezalY = 5;
+        char cabezal = 'M';
+        int opcionCabezal = 0;
+        char opcion = ' ';
+        char auxiliarX = ' ';
+        boolean salir = false;
 
         for(int i=0;i<ancho;i++){
             for(int j=0;j<ancho;j++){
-                if(i==0 || j==0 || i==ancho-1 || j==ancho-1){
+                if(i == 0 || j == 0 || i == ancho-1 || j == ancho-1){
                     matriz[i][j]='*';
                 }else{
                     matriz[i][j]=' ';
@@ -28,9 +28,9 @@ public class ExamenArrays2223 {
 
         do{
             
-            for(int i=0;i<ancho;i++){
-                for(int j=0;j<ancho;j++){
-                    if(i==cabezalX && j==cabezalY){
+            for(int i = 0; i < ancho; i++){
+                for(int j = 0; j < ancho; j++){
+                    if(i == cabezalX && j == cabezalY){
                         System.out.print(cabezal+" ");
                     }else{
                         System.out.print(matriz[i][j]+" ");
@@ -46,15 +46,15 @@ public class ExamenArrays2223 {
 
                 case 'a':
                     cabezalY--;
-                    if(cabezalY==0){
+                    if(cabezalY == 0){
                         cabezalY++;
                     }
 
-                    if(opcionCabezal==2){
-                        matriz[cabezalX][cabezalY]=' ';
+                    if(opcionCabezal == 2){
+                        matriz[cabezalX][cabezalY] = ' ';
                     }
-                    if(opcionCabezal==1){
-                        matriz[cabezalX][cabezalY]='X';
+                    if(opcionCabezal == 1){
+                        matriz[cabezalX][cabezalY] = 'X';
                     }
 
                 break;
@@ -62,16 +62,16 @@ public class ExamenArrays2223 {
                 case 'd':
 
                     cabezalY++;
-                    if(cabezalY==10){
+                    if(cabezalY == 10){
                         cabezalY--;
                     }
 
-                    if(opcionCabezal==1){
-                        matriz[cabezalX][cabezalY]='X';
+                    if(opcionCabezal == 1){
+                        matriz[cabezalX][cabezalY] = 'X';
                     }
 
-                    if(opcionCabezal==2){
-                        matriz[cabezalX][cabezalY]=' ';
+                    if(opcionCabezal == 2){
+                        matriz[cabezalX][cabezalY] = ' ';
                     }
 
 
@@ -80,16 +80,16 @@ public class ExamenArrays2223 {
                 case 'w':
 
                     cabezalX--;
-                    if(cabezalX==0){
+                    if(cabezalX == 0){
                         cabezalX++;
                     }
 
-                    if(opcionCabezal==1){
-                        matriz[cabezalX][cabezalY]='X';
+                    if(opcionCabezal == 1){
+                        matriz[cabezalX][cabezalY] = 'X';
                     }
 
-                    if(opcionCabezal==2){
-                        matriz[cabezalX][cabezalY]=' ';
+                    if(opcionCabezal == 2){
+                        matriz[cabezalX][cabezalY] = ' ';
                     }
 
 
@@ -98,16 +98,16 @@ public class ExamenArrays2223 {
                 case 's':
 
                     cabezalX++;
-                    if(cabezalX==10){
+                    if(cabezalX == 10){
                         cabezalX--;
                     }
 
-                    if(opcionCabezal==1){
-                        matriz[cabezalX][cabezalY]='X';
+                    if(opcionCabezal == 1){
+                        matriz[cabezalX][cabezalY] = 'X';
                     }
 
-                    if(opcionCabezal==2){
-                        matriz[cabezalX][cabezalY]=' ';
+                    if(opcionCabezal == 2){
+                        matriz[cabezalX][cabezalY] = ' ';
                     }
 
                 break;
@@ -115,40 +115,40 @@ public class ExamenArrays2223 {
                 
                 case 'p':
 
-                    cabezal='P';
-                    opcionCabezal=1;
-                    matriz[cabezalX][cabezalY]='X';
+                    cabezal = 'P';
+                    opcionCabezal = 1;
+                    matriz[cabezalX][cabezalY] = 'X';
                     
                 break;
                     
                 case 'b':
                     
-                    cabezal='B';
-                    opcionCabezal=2;
-                    matriz[cabezalX][cabezalY]=' ';
+                    cabezal = 'B';
+                    opcionCabezal = 2;
+                    matriz[cabezalX][cabezalY] = ' ';
 
                 break;
 
                 case 'm':
 
-                    cabezal='M';
-                    opcionCabezal=0;
+                    cabezal = 'M';
+                    opcionCabezal = 0;
 
                 break;
 
                 case 'r':
 
-                    for(int i=0;i<ancho;i++){
-                        for(int j=0;j<ancho;j++){
+                    for(int i = 0; i < ancho; i++){
+                        for(int j = 0; j < ancho; j++){
             
-                            auxiliar[ancho-1-j][i]=matriz[i][j];
+                            auxiliar[ancho-1-j][i] = matriz[i][j];
                         }
                     }
 
-                    for(int i=0;i<ancho;i++){
-                        for(int j=0;j<ancho;j++){
+                    for(int i = 0; i < ancho; i++){
+                        for(int j = 0; j < ancho; j++){
             
-                            matriz[i][j]=auxiliar[i][j];
+                            matriz[i][j] = auxiliar[i][j];
                         }
                     }
 
