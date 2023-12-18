@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Prueba_Aleatorios {
   public static double valorCarta(int n, double NCarta){
     NCarta = 0;
-    switch (n%10) {
+    switch (n % 10) {
       case 0:
         NCarta += 1;
         break;
@@ -44,7 +44,7 @@ public class Prueba_Aleatorios {
     return NCarta;
   }
   public static void numeroCarta(int n){
-    switch (n%10) {
+    switch (n % 10) {
         case 0:
           System.out.print("As ");
           break;
@@ -90,7 +90,7 @@ public class Prueba_Aleatorios {
       }
   }
   public static void palos(int n){
-    switch (n/10) {
+    switch (n / 10) {
         case 0:
           System.out.print("de oros ");
           break;
