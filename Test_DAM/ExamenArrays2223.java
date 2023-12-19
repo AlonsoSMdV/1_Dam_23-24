@@ -156,11 +156,11 @@ public class ExamenArrays2223 {
 
                 case 'e':
                     
-                    for(int i=0;i<ancho;i++){
-                        for(int j=0;j<ancho/2;j++){
-                            auxiliarX=matriz[i][j];
-                            matriz[i][j]=matriz[i][ancho-1-j];
-                            matriz[i][ancho-1-j]=auxiliarX;
+                    for(int i = 0; i < ancho; i++){
+                        for(int j = 0; j < ancho/2; j++){
+                            auxiliarX = matriz[i][j];
+                            matriz[i][j] = matriz[i][ancho-1-j];
+                            matriz[i][ancho-1-j] = auxiliarX;
                         }
                     }
 
@@ -168,12 +168,12 @@ public class ExamenArrays2223 {
 
                 case 'l':
 
-                    for(int i=0;i<ancho;i++){
-                        for(int j=0;j<ancho;j++){
-                            if(i==0 || j==0 || i==ancho-1 || j==ancho-1){
-                                matriz[i][j]='*';
+                    for(int i = 0; i < ancho; i++){
+                        for(int j = 0; j < ancho; j++){
+                            if(i == 0 || j == 0 || i == ancho-1 || j == ancho-1){
+                                matriz[i][j] = '*';
                             }else{
-                                matriz[i][j]=' ';
+                                matriz[i][j] = ' ';
                             }
                         }
                     }
@@ -181,7 +181,7 @@ public class ExamenArrays2223 {
                 break;
                 
                 case 'q':
-                    salir=true;
+                    salir = true;
                 break;
                 
             }
