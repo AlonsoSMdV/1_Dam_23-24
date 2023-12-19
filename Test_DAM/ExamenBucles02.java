@@ -6,7 +6,7 @@ public class ExamenBucles02 {
     long nVolt = 0;
     while(n>0){
       nVolt = (n%10)+(nVolt*10);
-      n/=10;
+      n /= 10;
     }
     return nVolt;
   }
