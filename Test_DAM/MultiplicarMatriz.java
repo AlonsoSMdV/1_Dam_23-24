@@ -6,12 +6,12 @@ public class MultiplicarMatriz {
   public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        int ancho=3; 
+        int ancho = 3; 
 
-        int[][] matriz1=new int[ancho][ancho];
-        int[][] matriz2=new int[ancho][ancho];
-        int[][] auxiliar=new int[ancho][ancho];
-        int total=0;
+        int[][] matriz1 = new int[ancho][ancho];
+        int[][] matriz2 = new int[ancho][ancho];
+        int[][] auxiliar = new int[ancho][ancho];
+        int total = 0;
 
         for(int i=0;i<ancho;i++){
             for(int j=0;j<ancho;j++){
