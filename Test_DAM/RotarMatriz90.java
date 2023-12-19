@@ -22,10 +22,10 @@ public class RotarMatriz90 {
       }
   
       int[][] auxiliar = new int[3][3];
-      for(int i=0;i<matriz.length;i++){
-        for(int j=0;j<matriz.length;j++){
+      for(int i = 0; i < matriz.length; i++){
+        for(int j = 0; j < matriz.length; j++){
   
-            auxiliar[matriz.length-1-i][j]=matriz[i][j];
+            auxiliar[matriz.length-1-i][j] = matriz[i][j];
         }
     }
   
