@@ -129,7 +129,7 @@ public class Prueba_Aleatorios {
       System.out.printf("\nSu puntuacion ahora mismo es de: %.1f\n",sumaCarta);
       System.out.print("Desea plantarse? ");
       terminar = sc.next();
-      if (terminar.equals("si")||terminar.equals("Si")) {
+      if (terminar.equals("si") || terminar.equals("Si")) {
         System.out.println("TURNO DE LA CPU");
         double sumaCartaCpu = 0;
         NCarta = 0;
