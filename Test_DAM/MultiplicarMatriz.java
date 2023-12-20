@@ -13,9 +13,9 @@ public class MultiplicarMatriz {
         int[][] auxiliar = new int[ancho][ancho];
         int total = 0;
 
-        for(int i=0;i<ancho;i++){
-            for(int j=0;j<ancho;j++){
-                matriz1[i][j]=(int)(Math.random()*3+1);
+        for(int i = 0; i < ancho; i++){
+            for(int j = 0; j < ancho; j++){
+                matriz1[i][j] = (int)(Math.random()*3+1);
                 System.out.printf("%3d ",matriz1[i][j]);
             }
             System.out.println();
