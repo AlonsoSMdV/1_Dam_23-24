@@ -25,8 +25,8 @@ public class MatrizIdentidad {
         }
     } 
 
-    for(int i=0;i<ancho;i++){
-        for(int j=0;j<ancho;j++){
+    for(int i = 0; i < ancho; i++){
+        for(int j = 0; j < ancho; j++){
             System.out.print(matriz[i][j]+" ");
         }
         System.out.println();
