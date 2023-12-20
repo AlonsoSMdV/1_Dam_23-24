@@ -29,10 +29,10 @@ public class RotarMatriz90 {
         }
     }
   
-    for(int i=0;i<matriz.length;i++){
-        for(int j=0;j<matriz.length;j++){
+    for(int i = 0; i < matriz.length; i++){
+        for(int j = 0; j < matriz.length; j++){
   
-            matriz[i][j]=auxiliar[i][j];
+            matriz[i][j] = auxiliar[i][j];
         }
     }
   System.out.println();
