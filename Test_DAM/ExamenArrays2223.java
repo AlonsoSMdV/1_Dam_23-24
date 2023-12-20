@@ -16,12 +16,12 @@ public class ExamenArrays2223 {
         char auxiliarX = ' ';
         boolean salir = false;
 
-        for(int i=0;i<ancho;i++){
-            for(int j=0;j<ancho;j++){
+        for(int i = 0; i < ancho; i++){
+            for(int j = 0; j < ancho; j++){
                 if(i == 0 || j == 0 || i == ancho-1 || j == ancho-1){
-                    matriz[i][j]='*';
+                    matriz[i][j] = '*';
                 }else{
-                    matriz[i][j]=' ';
+                    matriz[i][j] = ' ';
                 }
             }
         }
