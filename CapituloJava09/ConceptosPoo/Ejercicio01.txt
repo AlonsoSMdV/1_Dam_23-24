@@ -1,0 +1,13 @@
+¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas
+instancias de esta clase?
+ATRIBUTOS: 
+  - Nombre
+  - Apellidos
+  - Edad
+  - Escuderia
+  - Coche
+
+INSTANCIAS
+  - fernandoAlonso
+  - maxVerstappen
+  - lewisHamilton
