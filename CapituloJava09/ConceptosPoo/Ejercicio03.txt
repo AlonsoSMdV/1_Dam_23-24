@@ -1,0 +1,13 @@
+¿Cuáles serían los atributos de la clase Vivienda? ¿Qué subclases se te ocurren?
+ATRIBUTOS
+  - ancho
+  - alto
+  - tipo
+  - nHabitaciones
+  - nBaños
+  - direccion
+
+SUBCLASES 
+  - piso
+  - chalet
+  - duplex
