@@ -16,7 +16,7 @@ public class Vehiculo {
     this.kilometrosRecorridos = 0;
   }
   public int getKilometrosRecorridos() {
-    return this.kilometrosRecorridos;
+    return kilometrosRecorridos;
   }
   public static int getKilometrosTotales() {
     return Vehiculo.kilometrosTotales;
