@@ -12,7 +12,7 @@ public class Caballo {
   }
 
   String getSexo(){
-    return this.sexo;
+    return sexo;
   }
 
   void relincha(){
