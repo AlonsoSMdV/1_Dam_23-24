@@ -6,7 +6,7 @@ public abstract class Animal {
     this.sexo = s;
   }
   public String getSexo() {
-    return this.sexo;
+    return sexo;
   }
   /**
   * Hace que el animal se eche a dormir.
