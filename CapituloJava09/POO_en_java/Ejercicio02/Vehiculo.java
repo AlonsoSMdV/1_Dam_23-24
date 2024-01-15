@@ -14,6 +14,10 @@ public class Vehiculo {
   private int kilometrosRecorridos;
   public Vehiculo() {
     this.kilometrosRecorridos = 0;
+    vehiculosCreados++;
+  }
+  public static int getVehiculosCreados() {
+    return vehiculosCreados;
   }
   public int getKilometrosRecorridos() {
     return kilometrosRecorridos;
