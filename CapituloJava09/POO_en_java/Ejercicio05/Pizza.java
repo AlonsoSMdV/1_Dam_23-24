@@ -14,7 +14,7 @@ private String estado;
   }
 
   public String toString() {
-    return "Pizza "+this.tipo+" "+this.tamano+", "+this.estado;
+    return "Pizza " + this.tipo + " " + this.tamano + ", " + this.estado;
   }
   public static int getTotalPedidas() {
     return Pizza.TotalPedidas;
