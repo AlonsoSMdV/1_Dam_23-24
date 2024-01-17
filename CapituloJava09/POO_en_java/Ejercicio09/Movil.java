@@ -25,7 +25,7 @@ public class Movil extends Terminal {
 
   public void llama(Movil m, int segundos){
     super.llama(m, segundos);
-    double minutos = (double) segundos/60;
+    double minutos = (double) segundos / 60;
     switch (this.tarifa) {
       case "rata":
         this.costeTarifa += minutos * 0.06;
