@@ -11,9 +11,9 @@ public class Model implements CRUD<Identifier>{
 
     @Override
     public Identifier add(Identifier elem) {
-        String id = MyUuid.newUUID();
+        String id = MyUuid.newUuid();
         while(grupos.containsKey(id))
-            id = MyUuid.newUUID();
+            id = MyUuid.newUuid();
         
         Identifier newGrupo = elem.clone();
         newGrupo.setId(id);

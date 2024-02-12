@@ -63,10 +63,15 @@ public class Grupo implements Comparable<Grupo>, Identifier, GrupoInterface{
     public Alumno anadeAlumno(Alumno alum) {
         return alumnos.put(alum.getId(), alum);
     }
-
-    @Override
+    
     public Alumno borraAlumno(Alumno alum) {
         return alumnos.remove(alum.getId());
+    }
+
+    @Override
+    public Alumno borrarAlumno(Alumno alum) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'borrarAlumno'");
     }
     
 }
