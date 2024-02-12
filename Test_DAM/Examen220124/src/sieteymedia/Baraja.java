@@ -24,7 +24,7 @@ public class Baraja implements BarajaInterface{
 
 public Carta extraerCarta() {
     if (cartas.size() > 0) {
-        cartas.remove();
+        cartas.removeFirst();
     }
 
     return null;
